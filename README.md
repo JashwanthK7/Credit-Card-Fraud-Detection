@@ -34,6 +34,13 @@ The performance of each tuned model was evaluated based on its precision, recall
 
 The final analysis concludes that **XGBoost** is the most robust and reliable model for this real-world fraud detection scenario, as it provides the best trade-off between detecting fraud and minimizing false alarms.
 
+## Dataset
+
+The dataset used in this project is the **Credit Card Fraud Detection** dataset from Kaggle. It contains anonymized transactions made by European cardholders.
+
+* **Source**: [Credit Card Fraud Detection on Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+* **Note**: Due to its size, the `creditcard.csv` file should be handled with Git LFS or downloaded directly from the source.
+
 ## Technologies Used
 
 * Python
@@ -61,8 +68,9 @@ The final analysis concludes that **XGBoost** is the most robust and reliable mo
     pip install pandas numpy scikit-learn xgboost matplotlib seaborn jupyter
     ```
 
-4.  Launch the Jupyter Notebook:
+4.  Download the dataset from [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) and place `creditcard.csv` in the project directory.
+
+5.  Launch the Jupyter Notebook:
     ```bash
     jupyter notebook MLProject.ipynb
     ```
-5. Make sure the `creditcard.csv` dataset is in the same directory as the notebook.
